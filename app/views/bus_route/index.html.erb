@@ -1,10 +1,2 @@
-<form action="/show_stops" method="post">
-  <label for="route_id">Route</label>
-  <input type="text" id="route_id" name="route_id"/>
-  <input type="submit" value="Submit!"
-</form>
-
-<% form_tag "/show_stops" do %>
-    <%= text_field_tag "route_id" %>
-    <%= submit_tag "Next" %>
-<% end %>
+<%= link_to "To work:", '/to' %>
+<%= link_to "From work:", '/from'  %>
