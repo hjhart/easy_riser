@@ -2,13 +2,18 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 gem 'bundler', '~>1.0.2'
+gem 'next_muni', '0.1.3'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
-# Use unicorn as the web server
-# gem 'unicorn'
+group :test, :development do
+  gem "rspec-rails", "~> 2.4"
+  gem "autotest"
+  gem "awesome_print"
+end
 
 # Deploy with Capistrano
 # gem 'capistrano'

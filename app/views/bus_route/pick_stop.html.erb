@@ -1,0 +1,15 @@
+<!--<form action="/show_times" method="post">-->
+  <!--<input type="hidden" name="route_id" value="<%= @route_id %>"/>-->
+  <!--<select name="stop_id" id="stop_id">-->
+    <!--<% @stops.each_pair do |key, route| %>-->
+        <!--<option value="<%= route %>"><%= key %></option>-->
+    <!--<% end -%>-->
+  <!--</select>-->
+  <!--<input type="submit" value="Show me!"/>-->
+<!--</form>-->
+
+<% form_tag '/show_times' do %>
+    <%= hidden_field_tag "route_id", value => @route_id %>
+    <%= select_tag "stop_id", @stops %>
+    <%= submit_tag "Next" %>
+<% end %>

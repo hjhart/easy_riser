@@ -48,7 +48,9 @@ EasyRiser::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  root :to => "bus_route#custom"
+  match 'show_stops/' => 'bus_route#pick_stop'
+  match 'show_times/' => 'bus_route#show'
 
   # See how all your routes lay out with "rake routes"
 
