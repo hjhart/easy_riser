@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<body copyright="All data copyright San Francisco Muni 2011.">
+  <predictions agencyTitle="San Francisco Muni" routeTitle="45-Union/Stockton" routeTag="45"
+               stopTitle="Union St &amp; Laguna St" stopTag="6771">
+    <direction title="Inbound to Townsend &amp; 4 th St.">
+      <prediction epochTime="1299485118724" seconds="914" minutes="15" isDeparture="false" affectedByLayover="true"
+                  dirTag="45_IB2" vehicle="5603" block="4507"/>
+      <prediction epochTime="1299486318724" seconds="2114" minutes="35" isDeparture="false" affectedByLayover="true"
+                  dirTag="45_IB2" vehicle="5586" block="4502" tripTag="4133986"/>
+    </direction>
+    <message text="www.sfmta.com or&#10;311 for Muni info."/>
+    <message text="PROOF OF PAYMENT&#10;is required when&#10;on a Muni vehicle&#10;or in a station."/>
+  </predictions>
+</body>

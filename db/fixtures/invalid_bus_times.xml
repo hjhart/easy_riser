@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright San Francisco Muni 2011.">
+<Error shouldRetry="false">
+  For agency=sf-muni stop s=232 is on none of the directions for r=45 so cannot determine which stop to provide data for.
+</Error>
+</body>
